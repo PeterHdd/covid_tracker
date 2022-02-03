@@ -2,6 +2,11 @@
 --------
 
 [![discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/3t3steGXqN) ![flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![issues](https://img.shields.io/github/issues/PeterHdd/covid_tracker?style=for-the-badge)
+![forks](https://img.shields.io/github/forks/PeterHdd/covid_tracker?style=for-the-badge)
+![Lisence](https://img.shields.io/github/license/PeterHdd/covid_tracker?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/PeterHdd/covid_tracker?style=for-the-badge)
+
 
 ## Architecture
 
@@ -40,7 +45,7 @@ World Stats Screen 1 | World Stats Screen 2 | Search Screen 1|
 
 Country Stats Screen 2|
 :--------------:|
-![vaccine-country](images/country_vaccine.png)|
+<img src="images/country_vaccine.png" width="600"> |
 
 
 ## How To Run
@@ -67,6 +72,17 @@ Also since Google maps is used, then you need to get an [API key](https://develo
   ....
   </application>
 ```
+
+## License
+
+Licensed under the [MIT License](https://github.com/PeterHdd/covid_tracker/blob/master/LICENSE).
+
+## Helpful Articles
+
+[Provider Implementation Guide](https://www.filledstacks.com/post/flutter-architecture-my-provider-implementation-guide/) <br>
+[Using GetIt in Flutter](https://petercoding.com/flutter/2021/07/21/using-get-it-in-flutter/) <br>
+[Making Sense of all those Flutter Providers](https://medium.com/flutter-community/making-sense-all-of-those-flutter-providers-e842e18f45dd) <br>
+[Clean Architecture for the rest of us](https://pusher.com/tutorials/clean-architecture-introduction/)
 
 ## Support!
 Support the repository by joining the [stargazers](https://github.com/PeterHdd/covid_tracker/stargazers) for this repo ⭐
