@@ -30,6 +30,8 @@ Therefore the `ViewModel` class will call the `Repository` which will also call 
 
 Finally, I seperated the files by feature instead of adding all the `ViewModel` under a folder called `ViewModel` and all the `Services` under a folder called `Services`... this way it will be easier for navigation.
 
+The API that is used in the application can be found here: https://disease.sh/docs/
+
 ![structure](images/structure.png)
 
 
@@ -83,6 +85,7 @@ Licensed under the [MIT License](https://github.com/PeterHdd/covid_tracker/blob/
 [Using GetIt in Flutter](https://petercoding.com/flutter/2021/07/21/using-get-it-in-flutter/) <br>
 [Making Sense of all those Flutter Providers](https://medium.com/flutter-community/making-sense-all-of-those-flutter-providers-e842e18f45dd) <br>
 [Clean Architecture for the rest of us](https://pusher.com/tutorials/clean-architecture-introduction/)
+[Using Provider in Flutter](https://petercoding.com/flutter/2021/07/11/using-provider-in-flutter/)
 
 ## Support!
 Support the repository by joining the [stargazers](https://github.com/PeterHdd/covid_tracker/stargazers) for this repo ⭐
