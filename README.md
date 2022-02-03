@@ -84,7 +84,7 @@ Licensed under the [MIT License](https://github.com/PeterHdd/covid_tracker/blob/
 [Provider Implementation Guide](https://www.filledstacks.com/post/flutter-architecture-my-provider-implementation-guide/) <br>
 [Using GetIt in Flutter](https://petercoding.com/flutter/2021/07/21/using-get-it-in-flutter/) <br>
 [Making Sense of all those Flutter Providers](https://medium.com/flutter-community/making-sense-all-of-those-flutter-providers-e842e18f45dd) <br>
-[Clean Architecture for the rest of us](https://pusher.com/tutorials/clean-architecture-introduction/)
+[Clean Architecture for the rest of us](https://pusher.com/tutorials/clean-architecture-introduction/) <br>
 [Using Provider in Flutter](https://petercoding.com/flutter/2021/07/11/using-provider-in-flutter/)
 
 ## Support!
