@@ -18,15 +18,15 @@ To get more into specifics, in the application the `Provider` state management i
 
 First we have the `View`, which can be any screen or widgets and the only function of the `View` is to show the data on the screen. Then we have the `ViewModel` classes which can extend the `ChangeNotifier` class or use it as a mixin, doing that will allow us to use the method `notifyListener()` which will notify the `ChangeNotifierProviders` for any change, so the `ViewModel` here does not have access to the `View` instead when `notifyListener()` is called, all the objects that are subscribed will be notified of the changes. So this is like the observer pattern.
 
-Then we go to the `Model` part but before explaining that, in the application also I'm using the package `get_it` which is a service locator where you would have a central registry where you can register the classes and then obtain an instance of those class. Therefore, since I don't want the `ViewModel` classes to know the implementation used in the `Repository` then I use an abstract class and using the `get_it` package I can register the implementation class but the `ViewModel` will depend on the abstraction instead of the implementation and this will make it easier if you want to change the implementation. For example inside the `VaccinationViewModel`:
+Then we go to the `Model` part but before explaining that, in the application also I'm using the package `get_it` which is a service locator which means you would have a central registry where you can register the classes and then obtain an instance of those class. Therefore, since I don't want the `ViewModel` classes to know the implementation used in the `Repository` then I use an abstract class and using the `get_it` package I can register the implementation class. But the `ViewModel` classes will always depend on the abstraction instead of the implementation and this will make it easier if you want to change the implementation later on. For example inside the `VaccinationViewModel`:
 
 ```dart
   final VaccinationViewRepository _repository = locator<VaccinationViewRepository>();
 ```
 
-Here, the class registered is `VaccincationViewRepositoryImpl` but the `VaccinationViewModel` will have a dependency on `VaccinationViewRepository` thus implementing the 'D' part in SOLID principles.
+Here, the class registered is `VaccincationViewRepositoryImpl` inside `service_locator.dart` but the `VaccinationViewModel` will have a dependency on `VaccinationViewRepository` thus implementing the 'D' part in `SOLID` principles.
 
-Therefore the `ViewModel` class will call the `Repository` which will also call the `Service` classes, in my case here I used `retrofit` which will lead to many generated files but you can just use `Dio` instead of `retrofit`. When the data is obtained, it is then returned through each layer from the `Service` classes until the `ViewModel` which calls `notifyListener()` to notify the `View` of the changes.
+Therefore the `ViewModel` class will call the `Repository` which will also call the `Service` classes, in my case here I used [`retrofit`](https://pub.dev/packages/retrofit) which will lead to many generated files but you can just use [`Dio`](https://pub.dev/packages/dio) instead of `retrofit`. When the data is obtained, it is then returned through each layer from the `Service` classes until the `ViewModel` which calls `notifyListener()` to notify the `View` of the changes.
 
 Finally, I seperated the files by feature instead of adding all the `ViewModel` under a folder called `ViewModel` and all the `Services` under a folder called `Services`... this way it will be easier for navigation.
 
