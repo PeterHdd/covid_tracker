@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+//TODO: fix immutability later on
 import 'package:covid_tracker/utils/constants.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
