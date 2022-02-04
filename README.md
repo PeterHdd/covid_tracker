@@ -45,7 +45,7 @@ World Stats Screen 1 | World Stats Screen 2 | Search Screen 1|
 :--------------:|:--------------:|:--------------:|
 ![search](images/search_country.png)|![stats](images/country_stats.png) | ![vaccine](images/map_vaccine.png)
 
-Country Stats Screen 2|
+Vaccine Screen 2|
 :--------------:|
 <img src="images/country_vaccine.png" width="600"> |
 
