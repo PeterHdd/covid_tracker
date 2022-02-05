@@ -32,6 +32,7 @@ class _VaccinationViewState extends State<VaccinationView> {
       child: Scaffold(
         extendBodyBehindAppBar: true,
         appBar: AppBar(
+          systemOverlayStyle: Constants.statusBarColor,
           backgroundColor: Colors.transparent,
           elevation: 0.0,
         ),

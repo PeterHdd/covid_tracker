@@ -35,6 +35,7 @@ class _CountryViewDetailState extends State<CountryViewDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        systemOverlayStyle: Constants.statusBarColor,
         backgroundColor: Colors.transparent,
         iconTheme: const IconThemeData(color: Colors.black),
         elevation: 0.0,

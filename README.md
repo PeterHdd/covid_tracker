@@ -43,11 +43,11 @@ World Stats Screen 1 | World Stats Screen 2 | Search Screen 1|
 
 | Search Screen 2 | Country Stats Screen | Vaccine Screen
 :--------------:|:--------------:|:--------------:|
-![search](images/search_country.png)|![stats](images/country_stats.png) | ![vaccine](images/map_vaccine.png)
+![search](images/search-country.png)|![stats](images/country-stats.png) | ![vaccine](images/map-vaccine.png)
 
 Country Stats Screen 2|
 :--------------:|
-<img src="images/country_vaccine.png" width="600"> |
+<img src="images/country-vaccine.png" width="600"> |
 
 
 ## How To Run

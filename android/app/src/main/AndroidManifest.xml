@@ -5,7 +5,7 @@
         android:label="Covid Tracker"
         android:icon="@mipmap/launcher_icon">
         <meta-data android:name="com.google.android.geo.API_KEY"
-         android:value="API_KRY_HERE"/>
+         android:value="API_KEY_HERE"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

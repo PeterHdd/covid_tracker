@@ -33,6 +33,7 @@ class _CountryViewState extends State<CountryView> {
         create: (_) => CountryViewModel(),
         child: Scaffold(
             appBar: AppBar(
+              systemOverlayStyle: Constants.statusBarColor,
               backgroundColor: Colors.transparent,
               elevation: 0.0,
               title: const Align(

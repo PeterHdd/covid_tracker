@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class Constants {
-
+  
   ///bottom nav bar items
   static const bottomNavWorld = "World";
   static const bottomNavStats = "Stats";
@@ -46,4 +47,10 @@ class Constants {
   static const textRecoveredColor = Color(0xFF369F4E);
   static const deceasedColor = Color(0xFFEFF1F3);
   static const textDeceasedColor = Color(0xFF737981);
+
+  //status bar color
+  static const statusBarColor = SystemUiOverlayStyle(
+      statusBarBrightness: Brightness.dark,
+      statusBarIconBrightness: Brightness.dark, 
+      statusBarColor: Colors.transparent);
 }

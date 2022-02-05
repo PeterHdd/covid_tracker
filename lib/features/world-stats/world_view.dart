@@ -21,6 +21,7 @@ class WorldView extends StatelessWidget {
       create: (_) => WorldViewModel(),
       child: Scaffold(
         appBar: AppBar(
+          systemOverlayStyle: Constants.statusBarColor,
           backgroundColor: Colors.transparent,
           elevation: 0.0,
           title: const Align(
